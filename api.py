@@ -65,8 +65,9 @@ async def predict_image(image_link: str = ''):
 
 
 def start_server():
-    "Launch the server with poetry run start at root level"
-    uvicorn.run(app, host="127.0.0.1", port=8000, debug=True)
+    """Launch the server with poetry run start at root level"""
+    port = int(os.environ.get('PORT', 5000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
 
 
 if __name__ == "__main__":
