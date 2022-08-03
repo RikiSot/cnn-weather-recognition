@@ -7,9 +7,17 @@ authors = ["RikiSot <rkgomezz@gmail.com>"]
 [tool.poetry.dependencies]
 python = "3.10"
 tensorflow = "^2.9.1"
+pandas = "^1.4.3"
+sklearn = "^0.0"
+uvicorn = "^0.18.2"
+fastapi = "^0.79.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^7.1.2"
+ipykernel = "^6.15.1"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+scipy = "^1.9.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
