@@ -1,6 +1,6 @@
-# CNN Recognition Weather APP
+# CNN Weather Recognition API
 
-Image recognition app for weather phenomenon images. The model is trained on this [Kaggle's dataset](https://www.kaggle.com/datasets/fceb22ab5e1d5288200c0f3016ccd626276983ca1fe8705ae2c32f7064d719de).
+Image recognition app for weather phenomenona images. The model is trained on this [Kaggle's dataset](https://www.kaggle.com/datasets/fceb22ab5e1d5288200c0f3016ccd626276983ca1fe8705ae2c32f7064d719de).
 
 I tested different models and found that the best model for this application is the [ResNet50](https://keras.io/applications/#resnet50).
 Model training and selection can be found in the [JupyterNotebook](cnn_transfer_learning.ipynb).
