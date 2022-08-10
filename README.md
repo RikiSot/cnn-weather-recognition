@@ -64,7 +64,7 @@ space limitations.
 You can train and generate new models on your own using the [JupyterNotebook](cnn_transfer_learning.ipynb).
 
 ## Test the app
-The whole app is deployed on Heroku. You can test it on the following link: https://weather-recognition.herokuapp.com/
+The whole app is deployed on Heroku. You can test it on the following link: https://weather-recognition.herokuapp.com/docs
 
 
 
